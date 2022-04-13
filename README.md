@@ -23,3 +23,5 @@ To stop the server, run the following command.
 To test the http endpoint with an input image (kitten.jpg) and output image (out.jpg), run the following command
 
 ```http POST http://127.0.0.1:8080/predictions/tinymodel/ @kitten.jpg > out.jpg```
+
+This uses [HTTPie](https://httpie.io/)
